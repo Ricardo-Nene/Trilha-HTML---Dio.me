@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+</head>
+<body>
+    <hr/>
+    <header id="Indice">
+    <h1>Exemplo de matéria em um Blog</h1>
+    <hr/>
+    </header>    
+    <nav>
+    <h2>Índice</h2>
+    <ul type="none">
+        <li><a href="#Surgimento">O Surgimento da Internet</a></li>
+        <li><a href="#Entendendo">Entendendo o HTML</a></li>
+        <li><a href="#Funcionamento">Como Funcionam as Tags</a></li>
+        <li><a href="#Tags">Principais Tags e Seus Usos</a></li>
+        <li><a href="#Semantico">HTML Semântico</a></li>
+        <li><a href="#Referencias">Referências</a></li>
+        <li><a href="#Links">Links úteis</a></li>
+
+    </ul>
+    </nav>
+
+    <section>
+    <article id="Surgimento">    
+    <h2>O Surgimento da Internet</h2>
+        <p>A internet começou como um projeto de pesquisa nos anos 1960, mas foi nos anos 1990 que ela realmente se tornou acessível ao público.<br>
+        Com a criação da World Wide Web por Tim Berners-Lee, a internet transformou-se em uma plataforma global para compartilhar informações.<br>Essa revolução digital mudou a forma como nos comunicamos, trabalhamos e nos divertimos.</p>
+    <h3>Curiosidade</h3>
+    <p>Você sabia que o primeiro site da história que foi criado pelo próprio Tim Berners-Lee ainda existe e funciona, é isso mesmo, ele criou a página em 1990,<br> com a finalidade de compartilhar informações sobre a empresa que trabalhava, a Organização Européia para Pesquisa Nuclear, o site pode ser acessado<br> no endereço “info.cern.ch”, mas eu vou compartilhar uma versão em em tela verde parecida com a visualização dos monitores antigos que é muito mais legal,<br> confira <a href="https://line-mode.cern.ch/www/hypertext/WWW/TheProject.html" target="_blank" rel="external"><strong>aqui</strong></a> e se sinta voltando no tempo!</p>
+    <a href="#Indice" target="_self" rel="internal"><small>Voltar</small></a>
+    </article>
+    <article id="Entendendo">
+    <h2>Entendendo o HTML</h2>
+    <p>HTML, ou HyperText Markup Language, criada por Bernes, baseado no conceito de hipertextos o HTML é a linguagem de marcação usada para criar páginas da web. Ele estrutura o conteúdo usando elementos chamados "tags", que dizem ao navegador como exibir o texto e outros elementos.</p>
+    </article>
+    <a href="#Indice" target="_self" rel="internal"><small>Voltar</small></a>
+    <article id="Funcionamento">
+    <h2>Como Funcionam as Tags</h2>
+    <p>As tags HTML são como pequenos comandos que envolvem o conteúdo, indicando ao navegador como interpretá-lo. Geralmente, são pares de abertura e fechamento, como < tag > e < /tag > respectivamente, de forma simplificada os sinais <> são os delimitadores da abertura e < / > são os delimitadores do fechamento da tag, os texto extre sinais descreve a função da tag, e tudo o que estiver entre os delimitadores pode ser considerado o corpo da tag, exemplificando <b>< nome da tag > corpo (elemento que recebe a funcinalidade da tag) < /nome da tag></b>, de primeiro momento pode parecer complicado mas na verdade é bem simples, e com um pouco de estudo fica bem mais claro, existem uma infinidade de tags HTML e cada uma tem uma função especifica além de atributos extremamente úteis, e isso é de extrema importância para a construção adequada de um site, mas esses são assuntos que podemos tratar no decorrer dos estudos, dito isto podemos conhecer algumas das principais tags bem como  seus usos e funções.</p>
+    <a href="#Indice" target="_self" rel="internal"><small>Voltar</small></a>
+    </article>
+    <article id="Tags">
+    <h2>Principais Tags e Seus Usos:</h2>
+    <h4>Essas Tags são as mais comuns quando se trata de trabalho básico com textos</h3>
+    <li> <b>< h1> até < h6 >: </b> Representam cabeçalhos, do mais importante (< h1>) ao menos importante (< h6>).</li>
+    <li> <b>< p>:</b> Define um parágrafo de texto.</li>
+    <li> <b>< mark>:</b> Destaca o texto como se estivesse <mark>marcado com um marcador de texto.</mark></li>
+    <li> <b>< small>:</b> Exibe o texto em <small>tamanho menor.</small></li>
+    <li><b>< i></b>: <i>Italiza o texto.</i></li>
+    <li> <b>< u >:</b> <u>Sublinha o texto.</u></li>
+    <li><b>< strong >:</b> Dá ênfase forte, <strong>geralmente exibido em negrito.</strong></li>
+    <li><b>< ol >:</b> Cria uma lista ordenada.</li>
+    <li><b>< ul >:</b> Cria uma lista não ordenada.</li>
+    <li><b>< li >:</b> Define um item de lista dentro de < ol> ou < ul>.</li> 
+    <li><b>< a >: </b>Cria um hyperlink, permitindo navegar para outras páginas.</li>
+    <li><b>< hr >: </b>Insere uma linha horizontal, usada para separar conteúdo.</li> 
+    <li><b>< sub >: </b>Exibe texto em <sub>subescrito</sub>.</li>
+    <li><b>< sup >:</b> Exibe texto em <Sup>sobrescrito</Sup>.</li>
+    <li><b>< blockquote >:</b> Destaca uma citação em bloco.</li>
+    <li><b>< font >(obsoleto):</b> Personalizava a aparência do texto, mas não é mais recomendado.</li> 
+    <li><b>< del >: </b>Indica texto que foi <del>removido</del>, geralmente exibido com um traço.</li>
+    <li><b>< abbr >: </b>Define uma abreviação ou acrônimo, podendo fornecer uma descrição completa.</li>    
+    </article>
+    <a href="#Indice" target="_self" rel="internal"><small>Voltar</small></a>
+    <article id="Semantico">
+        <h2>HTML Semântico</h2>
+        <p>
+            <abbr title="HyperText Markup Language">HTML</abbr> Semântico refere-se ao uso de tags que claramente descrevem seu significado e o conteúdo que encapsulam. <br> Isso melhora a acessibilidade e a otimização para mecanismos de busca.
+        </p>
+       
+        <h3>Benefícios do HTML Semântico:</h3>  
+              
+            <li><b>Clareza:</b> As tags semânticas tornam o código mais legível para desenvolvedores, identificando claramente o propósito dos elementos</li>
+            <li><b>Acessibilidade: </b>Ajudam tecnologias assistivas (como leitores de tela) a interpretar o conteúdo de forma mais eficaz.</li>
+            <li><b><abbr title="(SEO - Search Engine Optimization).">SEO:</abbr> </b> Motores de busca entendem melhor a estrutura e relevância do conteúdo, melhorando o ranking.</li>
+        </ul>   
+        <h3>Principais Tags Semânticas:</h3>
+        <li><b>< header >:</b> Define o cabeçalho de uma seção ou página. </li>
+        <li><b>< nav >: </b> Indica links de navegação. </li> 
+        <li><b>< section >:</b> Agrupa conteúdo tematicamente relacionado.</li>
+        <li><b>< article >: </b>Representa conteúdo independente, como artigos de blog.</li>
+        <li><b>< aside >: </b>Contém informações adicionais, como barras laterais.</li>
+        <li><b>< footer >: </b>Define o rodapé de uma seção ou página.</li>
+        <li><b>< main >: </b>Indica o conteúdo principal do documento</li>
+    </article> 
+    <a href="#Indice" target="_self" rel="self"><small>Voltar</small></a> 
+    
+    <article id="Referencias">
+        <h4>Referências</h4>
+        <li><b>Livro: "Where Wizards Stay Up Late: The Origins of the Internet"</b>por Katie Hafner e Matthew Lyon.</li>
+        <li>Recursos online como a <b><a href="https://www.internetsociety.org/" target="_blank" rel="external">Internet Society</a></b></li>
+        <li>Documentação oficial do <b><a href="https://developer.mozilla.org/pt-BR/">MDN Web Docs</a></b>.</li>
+        <li>Livro: <b><a href="https://github.com/free-educa/books/blob/main/books/Desconstruindo%20a%20Web%20-%20As%20tecnologias%20por%20tras%20de%20uma%20requisicao%20-%20Willian%20Molinari.pdf"></a>"Desconstruindo a Web - As tecnologias por trás de uma requisição"</b>por Willian Molinari</li>
+        <li><b><a href="https://ipforce.com.br/curiosidades-sobre-a-internet/">Curiosidades sobre a Internet - IPFORCE</a></b></li>
+    </article>
+    <a href="#Indice" target="_self" rel="internal"><small>Voltar</small></a>
+
+    <article id="Links">
+        <h4>Links úteis</h4>
+        <li><b><a href="https://github.com/free-educa/books/tree/main/books"></a>Repositório de Livros free-educa no Github</b></li>
+        <li><b><a href="https://www.youtube.com/watch?v=VkxgWjWDi2A"> Documentário - Meio século de internet no YouTube</a></b></li>
+    </article>
+    <a href="#Indice" target="_self" rel="internal"><small>Voltar</small></a>
+
+    <footer><footer>
+        <p>&copy; 2024 Meu Site de Estudo. Todos os direitos reservados.</p>
+    </footer></footer>
+
+
+    </section>    
+</body>
+</html>
